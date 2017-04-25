@@ -41,9 +41,7 @@
     "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "lite": "lite-server",
-    "typings": "typings",
-    "postinstall": "typings install"
+    "lite": "lite-server"
   },
   "license": "ISC",
   "author": "Rajan G"
